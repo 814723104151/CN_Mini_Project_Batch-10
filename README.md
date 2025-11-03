@@ -1,4 +1,4 @@
-# 🧠 Smart Congestion Control Algorithm using NS3
+# Smart Congestion Control Algorithm using NS3
 
 ## 1. Title
 **Smart Congestion Control Algorithm using Network Simulator 3 (NS3)**
@@ -79,18 +79,25 @@ It uses a **hybrid AI-inspired adaptive mechanism** (simple threshold-based or w
 ---
 
 ## 8. System Architecture
-+--------------------------------------------------------------------------------------+
-|                            Smart Congestion Control System                          |
-+--------------------------------------------------------------------------------------+
-| Application Layer  – Generates data traffic                                         |
-| Transport Layer    – Smart Congestion Control Algorithm                             |
-| Network Layer      – IP routing simulation                                          |
-| Data Link Layer    – Packet transmission and queue management                       |
-| Physical Layer     – Bandwidth & channel delay simulation                           |
-+--------------------------------------------------------------------------------------+
-|                           Feedback Loop: RTT + Queue Length + Loss Rate            |
-+--------------------------------------------------------------------------------------+
+## Smart Congestion Control System
 
+Application Layer
+• Generates data traffic.
+
+Transport Layer
+• Implements the Smart Congestion Control Algorithm.
+
+Network Layer
+• Performs IP routing simulation.
+
+Data Link Layer
+• Handles packet transmission and queue management.
+
+Physical Layer
+• Simulates bandwidth and channel delay.
+
+Feedback Loop:
+• Monitors RTT, Queue Length, and Loss Rate to adjust transmission dynamically.
 
 yaml
 Copy code
