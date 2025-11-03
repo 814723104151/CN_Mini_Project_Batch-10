@@ -79,17 +79,18 @@ It uses a **hybrid AI-inspired adaptive mechanism** (simple threshold-based or w
 ---
 
 ## 8. System Architecture
-+---------------------------------------------------------+
-| Smart Congestion Control System |
-+---------------------------------------------------------+
-| Application Layer – Generates data traffic |
-| Transport Layer – Smart Congestion Control Algorithm |
-| Network Layer – IP routing simulation |
-| Data Link Layer – Packet transmission and queue mgmt |
-| Physical Layer – Bandwidth & channel delay simulation |
-+---------------------------------------------------------+
-| Feedback Loop: RTT + Queue Length + Loss Rate |
-+---------------------------------------------------------+
++--------------------------------------------------------------------------------------+
+|                            Smart Congestion Control System                          |
++--------------------------------------------------------------------------------------+
+| Application Layer  – Generates data traffic                                         |
+| Transport Layer    – Smart Congestion Control Algorithm                             |
+| Network Layer      – IP routing simulation                                          |
+| Data Link Layer    – Packet transmission and queue management                       |
+| Physical Layer     – Bandwidth & channel delay simulation                           |
++--------------------------------------------------------------------------------------+
+|                           Feedback Loop: RTT + Queue Length + Loss Rate            |
++--------------------------------------------------------------------------------------+
+
 
 yaml
 Copy code
