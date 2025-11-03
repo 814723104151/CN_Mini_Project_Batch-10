@@ -23,7 +23,7 @@ The proposed algorithm dynamically adjusts packet transmission rates based on re
 ---
 
 ## 4. Existing System
-Existing TCP congestion control algorithms (e.g., TCP Reno, TCP NewReno, and TCP Tahoe) rely on **packet loss** as the primary indicator of congestion.  
+Existing TCP congestion control algorithms (E.g., TCP Reno, TCP NewReno, and TCP Tahoe) rely on **packet loss** as the primary indicator of congestion.  
 However, this reactive approach causes throughput reduction and increased latency, especially in modern high-speed or wireless networks.
 
 ### Limitations:
@@ -82,10 +82,15 @@ It uses a **hybrid AI-inspired adaptive mechanism** (simple threshold-based or w
 ## Smart Congestion Control System
 
 **Application Layer :** Generates data traffic.
+
 **Transport Layer   :** Implements the Smart Congestion Control Algorithm.
+
 **Network Layer     :** Performs IP routing simulation.
+
 **Data Link Layer   :** Handles packet transmission and queue management.
+
 **Physical Layer    :** Simulates bandwidth and channel delay.
+
 **Feedback Loop     :** Monitors RTT, Queue Length, and Loss Rate to adjust transmission dynamically.
 
 ---
